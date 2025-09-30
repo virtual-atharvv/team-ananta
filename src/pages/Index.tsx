@@ -388,7 +388,7 @@ const Index = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mt-12 text-center text-muted-foreground text-sm"
         >
-          © {new Date().getFullYear()} DeepFakeDetector — Built with ❤️ for the hackathon
+          © {new Date().getFullYear()} DeepFakeDetector — Built with ❤️ by @Team Ananta !
         </motion.footer>
       </div>
     </div>
