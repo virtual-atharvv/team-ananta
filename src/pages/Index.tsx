@@ -35,11 +35,11 @@ const Index = () => {
   const { toast } = useToast();
 
   const team: TeamMember[] = [
-    { name: 'Atharv Maurya', linkedin: 'https://www.linkedin.com/in/atharv-maurya', photo: atharvPhoto },
-    { name: 'Varun Dev Mishra', linkedin: 'https://www.linkedin.com/in/varun-dev-mishra', photo: varunPhoto },
-    { name: 'Kanak Gihar', linkedin: 'https://www.linkedin.com/in/kanak-gihar', photo: kanakPhoto },
-    { name: 'Ayush Katiyar', linkedin: 'https://www.linkedin.com/in/ayush-katiyar', photo: ayushPhoto },
-    { name: 'Sara Khan', linkedin: 'https://www.linkedin.com/in/sara-khan', photo: saraPhoto },
+    { name: 'Atharv Maurya', linkedin: 'https://www.linkedin.com/in/atharv-maurya-2b6295325', photo: atharvPhoto },
+    { name: 'Varun Dev Mishra', linkedin: 'https://www.linkedin.com/in/varun-dev-mishra-485497382', photo: varunPhoto },
+    { name: 'Kanak Gihar', linkedin: 'https://www.linkedin.com/in/kanak-gihar-58057b378', photo: kanakPhoto },
+    { name: 'Ayush Katiyar', linkedin: 'https://www.linkedin.com/in/ayush-katiyar-b20ab9382', photo: ayushPhoto },
+    { name: 'Sara Khan', linkedin: 'https://www.linkedin.com/in/sara-khan-46676b377', photo: saraPhoto },
   ];
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
