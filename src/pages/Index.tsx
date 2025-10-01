@@ -144,8 +144,10 @@ const Index = () => {
             </p>
           </div>
           <nav className="flex gap-3 items-center flex-wrap">
-            <Button variant="secondary" onClick={() => scrollToSection('team')} className="text-sm">
-              Team
+            <Button variant="secondary" asChild className="text-sm">
+              <a href="https://team-ananta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Our Team
+              </a>
             </Button>
             <Button onClick={() => scrollToSection('test')} className="text-sm shadow-glow">
               Live Test
