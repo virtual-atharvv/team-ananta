@@ -136,7 +136,7 @@ const Index = () => {
           className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-4"
         >
           <div>
-            <h1 className="text-5xl md:text-6xl font-black tracking-tighter bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent text-premium">
+            <h1 className="text-5xl md:text-6xl font-black tracking-tighter text-premium" style={{ color: 'hsl(var(--heading-brand))' }}>
               DeepFakeDetector
             </h1>
             <p className="text-muted-foreground mt-3 text-sm md:text-base max-w-2xl font-medium leading-relaxed">
