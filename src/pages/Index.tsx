@@ -136,20 +136,20 @@ const Index = () => {
           className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-4"
         >
           <div>
-            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-black tracking-tighter bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent text-premium">
               DeepFakeDetector
             </h1>
-            <p className="text-muted-foreground mt-2 text-sm md:text-base max-w-2xl">
+            <p className="text-muted-foreground mt-3 text-sm md:text-base max-w-2xl font-medium leading-relaxed">
               AI/ML-based deepfake video detection — real-time testing for your videos with advanced neural analysis
             </p>
           </div>
           <nav className="flex gap-3 items-center flex-wrap">
-            <Button variant="secondary" asChild className="text-sm">
+            <Button variant="secondary" asChild className="text-sm font-semibold btn-team-hover">
               <a href="https://team-ananta.vercel.app/" target="_blank" rel="noopener noreferrer">
                 Our Team
               </a>
             </Button>
-            <Button onClick={() => scrollToSection('test')} className="text-sm shadow-glow">
+            <Button onClick={() => scrollToSection('test')} className="text-sm font-semibold shadow-glow btn-premium-hover">
               Live Test
             </Button>
           </nav>
@@ -165,7 +165,7 @@ const Index = () => {
             id="test"
             className="bg-gradient-card backdrop-blur-md rounded-3xl p-6 md:p-8 shadow-card-3d border border-border"
           >
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 flex items-center gap-2">
+            <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-6 flex items-center gap-2">
               <Upload className="w-6 h-6 text-primary" />
               Live Deepfake Test
             </h2>
@@ -295,7 +295,7 @@ const Index = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="bg-gradient-card backdrop-blur-md rounded-3xl p-6 md:p-8 shadow-card-3d border border-border"
             >
-              <h3 className="text-2xl font-bold mb-4">How it Works</h3>
+              <h3 className="text-2xl font-extrabold tracking-tight mb-4">How it Works</h3>
               <ol className="space-y-3 text-sm text-muted-foreground">
                 <li className="flex gap-3">
                   <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/20 text-primary flex items-center justify-center text-xs font-bold">
@@ -326,7 +326,7 @@ const Index = () => {
               id="team"
               className="bg-gradient-card backdrop-blur-md rounded-3xl p-6 md:p-8 shadow-card-3d border border-border"
             >
-              <h3 className="text-2xl font-bold mb-6">Our Team</h3>
+              <h3 className="text-2xl font-extrabold tracking-tight mb-6">Our Team</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {team.map((member, idx) => (
                   <motion.a
@@ -361,7 +361,7 @@ const Index = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               className="bg-gradient-to-br from-accent/20 to-primary/20 rounded-3xl p-6 md:p-8 shadow-card-3d border border-primary/30"
             >
-              <h4 className="text-xl font-bold mb-3">Hackathon Pitch</h4>
+              <h4 className="text-xl font-extrabold tracking-tight mb-3">Hackathon Pitch</h4>
               <p className="text-sm text-foreground/90 mb-4">
                 We provide a fast, explainable deepfake detection pipeline with an emphasis on UX — designed for journalists, content moderators, and researchers.
               </p>
