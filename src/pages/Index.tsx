@@ -8,7 +8,7 @@ import atharvPhoto from '@/assets/atharv.jpg';
 import varunPhoto from '@/assets/varun.jpg';
 import kanakPhoto from '@/assets/kanak.jpg';
 import ayushPhoto from '@/assets/ayush.jpg';
-import saraPhoto from '@/assets/Aaaa.jpg';
+import saraPhoto from '@/assets/image.jpg';
 
 interface TeamMember {
   name: string;
