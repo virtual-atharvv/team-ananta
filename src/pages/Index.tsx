@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Upload, AlertCircle, CheckCircle2, X } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
-import atharvPhoto from '@/assets/image.jpg';
+import atharvPhoto from '@/assets/atharv.jpg';
 import varunPhoto from '@/assets/varun.jpg';
 import kanakPhoto from '@/assets/kanak.jpg';
 import ayushPhoto from '@/assets/ayush.jpg';
