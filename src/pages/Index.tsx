@@ -6,9 +6,9 @@ import { useToast } from '@/hooks/use-toast';
 
 import atharvPhoto from '@/assets/atharv.jpg';
 import varunPhoto from '@/assets/varun.jpg';
-import kanakPhoto from '@/assets/kanak.jpg';
+import kanakPhoto from '@/assets/sara.jpg';
 import ayushPhoto from '@/assets/ayush.jpg';
-import saraPhoto from '@/assets/Aaaa.jpeg';
+import saraPhoto from '@/assets/kanak.jpg';
 
 interface TeamMember {
   name: string;
