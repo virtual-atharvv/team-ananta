@@ -4,11 +4,11 @@ import { Button } from '@/components/ui/button';
 import { Upload, AlertCircle, CheckCircle2, X } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
-import atharvPhoto from '@/assets/atharv.jpg';
-import varunPhoto from '@/assets/varun.jpg';
+import atharvPhoto from '@/assets/sara.jpg';
+import varunPhoto from '@/assets/sara.jpg';
 import kanakPhoto from '@/assets/sara.jpg';
-import ayushPhoto from '@/assets/ayush.jpg';
-import saraPhoto from '@/assets/kanak.jpg';
+import ayushPhoto from '@/assets/sara.jpg';
+import saraPhoto from '@/assets/sara.jpg';
 
 interface TeamMember {
   name: string;
