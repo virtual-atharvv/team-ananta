@@ -39,7 +39,7 @@ const Index = () => {
     { name: 'Varun Dev Mishra', linkedin: 'https://www.linkedin.com/in/varun-dev-mishra-485497382', photo: varunPhoto },
     { name: 'Kanak Gihar', linkedin: 'https://www.linkedin.com/in/kanak-gihar-58057b378', photo: kanakPhoto },
     { name: 'Ayush Katiyar', linkedin: 'https://www.linkedin.com/in/ayush-katiyar-b20ab9382', photo: ayushPhoto },
-    { name: 'Sara Khan', linkedin: 'https://open.spotify.com/', photo: saraPhoto },
+    { name: 'Sara Khan', linkedin: 'https://www.linkedin.com/in/sara-khan-46676b377', photo: saraPhoto },
   ];
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
